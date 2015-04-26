@@ -1,0 +1,5 @@
+islamhispanoappbundle_default:
+    resource: "@islamhispanoAppBundle/Controller/DefaultController.php"
+    type:     annotation
+    prefix:   /
+

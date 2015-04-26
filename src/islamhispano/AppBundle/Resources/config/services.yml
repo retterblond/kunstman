@@ -1,0 +1,6 @@
+services:
+    islamhispanoappbundle.default_locale_listener:
+        class: islamhispano\AppBundle\EventListener\DefaultLocaleListener
+        tags:
+          - { name: kernel.event_listener, event: kernel.response, method: onKernelResponse }
+        arguments: [%defaultlocale%]

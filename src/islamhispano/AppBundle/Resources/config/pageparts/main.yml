@@ -1,0 +1,16 @@
+name: Main
+context: main
+types:
+    - { name: Audio, class: islamhispano\AppBundle\Entity\PageParts\AudioPagePart }
+    - { name: Button, class: islamhispano\AppBundle\Entity\PageParts\ButtonPagePart }
+    - { name: Download, class: islamhispano\AppBundle\Entity\PageParts\DownloadPagePart }
+    - { name: Header, class: islamhispano\AppBundle\Entity\PageParts\HeaderPagePart }
+    - { name: Image, class: islamhispano\AppBundle\Entity\PageParts\ImagePagePart }
+    - { name: IntroText, class: islamhispano\AppBundle\Entity\PageParts\IntroTextPagePart }
+    - { name: Line, class: islamhispano\AppBundle\Entity\PageParts\LinePagePart }
+    - { name: Link, class: islamhispano\AppBundle\Entity\PageParts\LinkPagePart }
+    - { name: RawHtml, class: islamhispano\AppBundle\Entity\PageParts\RawHtmlPagePart }
+    - { name: Text, class: islamhispano\AppBundle\Entity\PageParts\TextPagePart }
+    - { name: Toc, class: islamhispano\AppBundle\Entity\PageParts\TocPagePart }
+    - { name: ToTop, class: islamhispano\AppBundle\Entity\PageParts\ToTopPagePart }
+    - { name: Video, class: islamhispano\AppBundle\Entity\PageParts\VideoPagePart }
